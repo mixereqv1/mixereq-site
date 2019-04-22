@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+    <head>
+        <!-- Meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="author" content="MixereQ">
+
+        <!-- Links -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Acme|Asap:400,500,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/media.css">
+        <link rel="shortcut icon" href="img/Avatar.jpg">
+
+        <title>MixereQ</title>
+    </head>
+
+    <body>
+        <nav id="navbar" class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars toggle-icon"></i>
+            </span>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="#home" class="nav-links">Home</a>
+                </li>
+                <li>
+                    <a href="#projects" class="nav-links">Moje projekty</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-links">O mnie</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-links">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+        <span id="home"></span>
+
+        <h1 class="welcome">Witaj na wildwolves.pl</h1>
+
+
+        <main>
+            <article id="projects" class="projects">
+                <span class="title">Moje projekty</span>
+                <section class="project_section">
+                    <span class="project_span todo" href="https://mixereqv1.github.io/ToDo-app/"></span>
+                    <a target="_blank" class="code-live" href="https://github.com/mixereqv1/ToDo-app">
+                        <i class="fas fa-code"></i><span>Code</span>
+                    </a>
+                    <a target="_blank" class="code-live" href="https://mixereqv1.github.io/ToDo-app/">
+                        <i class="fas fa-search"></i><span>Live</span>
+                    </a>
+                </section>
+                <section class="project_section">
+                    <span class="project_span rps" href="https://mixereqv1.github.io/Rock-paper-scissors/"></span>
+                    <a target="_blank" class="code-live" href="https://github.com/mixereqv1/Rock-paper-scissors">
+                        <i class="fas fa-code"></i><span>Code</span>
+                    </a>
+                    <a target="_blank" class="code-live" href="https://mixereqv1.github.io/Rock-paper-scissors/">
+                        <i class="fas fa-search"></i><span>Live</span>
+                    </a>
+                </section>
+            </article>
+            <article id="about" class="about_me">
+                <section class="faq">
+                    <span>FAQ</span>
+                    <div class="question">
+                        <i class="fas fa-question-circle"></i>
+                        <span> Jak masz na imię i ile masz lat? </span>
+                    </div>
+                    <div class="answer">
+                        <i class="fas fa-arrow-alt-circle-right"></i>
+                        <span> Na imię mam Mateusz i mam 18 lat.</span>
+                    </div>
+                    <div class="question">
+                        <i class="fas fa-question-circle"></i>
+                        <span> Gdzie mieszkasz? </span>
+                    </div>
+                    <div class="answer">
+                        <i class="fas fa-arrow-alt-circle-right"></i>
+                        <span> Polska, Śląskie, Ornontowice </span>
+                    </div>
+                    <div class="question">
+                        <i class="fas fa-question-circle"></i>
+                        <span> Jak można się z Tobą skontaktować? </span>
+                    </div>
+                    <div class="answer">
+                        <i class="fas fa-arrow-alt-circle-right"></i>
+                        <span> Poprzez zakładkę <a href="#contact">kontakt</a> </span>
+                    </div>
+                </section>
+                <section class="socials">
+                    <span>Moje social media:</span>
+                    <a target="_blank" class="social_link" href="https://github.com/mixereqv1">
+                        <img class="social_link_img" src="img/github.png">
+                    </a>
+                    <a target="_blank" class="social_link" href="https://www.youtube.com/channel/UCYWpP2y3PzBzI-QvOrPDNZQ">
+                        <img class="social_link_img" src="img/youtube.png">
+                    </a>
+                    <a target="_blank" class="social_link" href="https://steamcommunity.com/id/mixer3qv4/">
+                        <img class="social_link_img" src="img/steam.png">
+                    </a>
+                    <a target="_blank" class="social_link" href="https://wa.me/48535241175">
+                        <img class="social_link_img" src="img/whatsapp.png">
+                    </a>
+                    <a target="_blank" class="social_link" href="https://www.twitch.tv/mixer3q">
+                        <img class="social_link_img" src="img/twitch.png">
+                    </a>
+                    <a target="_blank" class="social_link" href="https://open.spotify.com/user/hz8yqmud2mt0aqmc2jbuzbh2u">
+                        <img class="social_link_img" src="img/spotify.png">
+                    </a>
+                </section>
+            </article>
+            <article id="contact" class="contact">
+                <form method="POST" action="mail.php" class="form">
+                    <span>Napisz do mnie</span>
+                    <p>
+                        Imię:
+                        <input type="text" name="imie" placeholder="Podaj swoje imię..." required>
+                    </p>
+                    <p>
+                        Email:
+                        <input type="email" name="email" placeholder="Podaj swój email..." required>
+                    </p>
+                    <p>
+                        Temat:
+                        <input type="text" name="subject" placeholder="Podaj temat..." required>
+                    </p>
+                    <p>
+                        Wiadomość:
+                        <textarea id="message" name="message" rows="2" placeholder="Co chcesz mi napisać..." required></textarea>
+                    </p>
+                    <button id="sendBtn">Wyślij</button>
+                </form>
+            </article>
+        </main>
+
+        <footer>
+            &copy; MixereQ 19'
+        </footer>
+
+
+
+        <script src="main.js"></script>
+    </body>
+
+</html>

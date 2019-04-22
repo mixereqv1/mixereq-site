@@ -1,0 +1,66 @@
+@media screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+
+        .navbar-toggle {
+            display: none;
+        }
+
+        .main-nav {
+            display: flex;
+            margin-right: 30px;
+            flex-direction: row;
+            justify-content: flex-end;
+
+            li {
+                margin: 0;
+            }
+
+            .nav-links {
+                margin-left: 40px;
+                transition: all .3s ease;
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 768px){
+    .welcome{
+        text-align: center;
+    }
+
+    main{
+        .projects{
+            height: auto;
+
+            .title{
+                margin: 25px 0 25px 0;
+            }
+
+            .project_section{
+                margin: 20px;
+            }
+        }
+
+        .about_me{
+            margin: 20px 0 0 0;
+
+            .socials .social_link{
+                width: 100px;
+                height: 100px;
+                margin: 10px;
+    
+                img{
+                    width: 100px;
+                    height: 100px;
+                    filter: grayscale(10%)!important;
+                    -webkit-filter: grayscale(20%)!important;
+                }
+            }
+        } 
+    }
+}
