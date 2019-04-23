@@ -44,3 +44,12 @@ navBarToggle.addEventListener('click', function () {
       toggleIcon.className = 'fas fa-bars toggle-icon';
     }
 });
+
+//after click on nav link menu collapse on mobile
+let nav_links = document.querySelectorAll('.nav-links');
+for(let i=0; i<4; i++){
+  nav_links[i].addEventListener('click',function(){
+    mainNav.classList.remove('active');
+    toggleIcon.className = 'fas fa-bars toggle-icon';
+  })
+}
